@@ -14,7 +14,8 @@ describe("intialising home page", function() {
   it("should visit the site and have a name form", function(next) {
     browser.visit(url, function(err) {
       expect(browser.success).toBe(true);
-      expect(browser.query("input[name='name']")).toBeDefined();
+      // expect(browser.query("input[name='slot1']")).toBeDefined();
+        expect("input[name='slot1']").toBeDefined();
       next();
     });
   });
