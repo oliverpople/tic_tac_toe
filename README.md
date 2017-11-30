@@ -18,7 +18,8 @@ This project is a simple example tech test.  The purpose of this test is to prac
 ## Tech Stack
 
 - Production code: As I want to build a dynamic web application I will attempt to use javascript and node.js for the front and backend respectively.
-- Testing: I will test with a combination of rspec and zombie.js for unit and feature test.
+- Testing: I will test with a combination of jasmine and zombie.js for unit and feature test.
+- Views: I will use handlebars to render and dynamically change my views using javascript.
 
 ## Potential Design Challenges:
 
