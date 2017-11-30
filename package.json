@@ -4,7 +4,7 @@
   "description": "## Project Overview",
   "main": "app.js",
   "scripts": {
-    "test": "jasmine-node spec"
+    "test": "istanbul cover --include-all-sources jasmine-node test"
   },
   "repository": {
     "type": "git",
@@ -22,8 +22,11 @@
     "handlebars": "^4.0.11",
     "jasmine": "^2.8.0",
     "jasmine-node": "^1.14.5",
-    "minimatch": "^3.0.4",
+    "minimatch": "^3.0.2",
     "request": "^2.83.0",
     "zombie": "^5.0.7"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.5"
   }
 }
