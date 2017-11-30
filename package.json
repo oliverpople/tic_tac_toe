@@ -18,10 +18,12 @@
   "homepage": "https://github.com/oliverpople/tic_tac_toe#readme",
   "dependencies": {
     "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
     "handlebars": "^4.0.11",
     "jasmine": "^2.8.0",
     "jasmine-node": "^1.14.5",
     "minimatch": "^3.0.4",
+    "request": "^2.83.0",
     "zombie": "^5.0.7"
   }
 }
